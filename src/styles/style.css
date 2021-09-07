@@ -1,0 +1,193 @@
+body {
+    background-color: #0F0E17;
+}
+
+.form-signin {
+    width: 80%;
+    max-width: 330px;
+    padding: 10px;
+    margin: auto;
+  }
+  
+  .form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .form-signin .form-control:focus {
+    z-index: 1;
+  }
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  
+  .google-btn {
+    cursor: pointer;
+    margin-top: 5px;
+    width: 100%;
+    height: 42px;
+    background-color: blue;
+    border-radius: 2px;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
+    transition: box-shadow .3s ease;
+}
+
+.google-icon-wrapper {
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 1px;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+}
+
+.google-icon {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 11px;
+    width: 18px;
+    height: 18px;
+}
+
+.btn-text {
+    float: right;
+    margin: 11px 40px 0 0;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}
+
+
+.nothing__main-content {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 75vh;
+
+ 
+}
+
+.nothing__main-content p {
+  text-align: center;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  opacity: .5;
+}
+
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+}
+
+.modal {
+  z-index: 100;
+  background: #0F0E17;
+  position: relative;
+  margin: 1rem auto;
+  border-radius: 3px;
+  max-width: 1000px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal-close-button {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  opacity: .3;
+  cursor: pointer;
+  border: none;
+}
+
+.mov-detail {
+  display: flex;
+  flex-direction: row;
+}
+
+.mov-description {
+  padding-left: 80px;
+  padding-right: 100px;
+}
+
+button {
+  font-size: .9rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 3px;
+  padding: .3rem 1rem;
+  margin-left: .5rem;
+}
+
+.button-default {
+  background: #247BA0;
+  color: #fff;
+}
+
+.button-edit {
+  margin-top: -46px;
+  margin-left: 0px;
+  font-size: 25px;
+  border-top-right-radius: 30px;
+}
+.button-edit:hover {
+  background-color: rgb(21, 68, 92);
+}
+.button-delete {
+  margin-top: -423px;
+  margin-left: 228px;
+  font-size: 25px;
+  border-bottom-left-radius: 30px;
+  background-color: firebrick;
+}
+
+.button-delete:hover {
+  background-color: rgb(129, 17, 17);
+}
+
+.CardImg {
+  width: 286px;
+  height: 424px;
+}
+
+.Card {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.img-detail img {
+  width: 286px;
+  height: 424px;
+}
